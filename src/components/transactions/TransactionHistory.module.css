@@ -1,0 +1,27 @@
+.table {
+    width: 400px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px 20px 6px 30px;
+}
+
+.head {
+    color: #fff;
+    background-color: #2c2c3b;
+}
+
+.headCell {
+    border: black solid 1px;
+}
+
+.row:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.cell:first-child {
+    text-align: start;
+}
